@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    background-color: #dddcdc;
+    margin-left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+header{
+    display: grid;
+    grid-template-columns: 10% 18% 43% 5% 10% 10% 7% ;
+    width: 100%;
+    background-color: rgb(11,11,11);
+    color: white;
+    height: 60px;
+    padding: 3px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: black;
+   
+    height: 60px;
+}
+
+.nav2{
+    border-radius: 5px;
+    margin-top: 7px;
+    height: 70%;
+    background-color: rgb(231, 213, 46);
+    border: solid 1px white;
+   
+    
+}
+#search{
+  border-radius: 5px;
+    height: 88%;
+    padding-left: 10px;
+}
+h4{
+    color: white;
+}
+.dropbtn {
+    
+    color: white;
+   
+    font-size: 16px;
+    border: none;
+  }
+  
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s;
+  }
+  
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    top: 60px;
+    box-shadow: 1px 1px 20px black; 
+    z-index: 1;
+    transition: all 0.3s;
+  }
+  
+  .dropdown-content p {
+    color: black;
+    padding: 0px 0px 0px 5px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+   .dropdown-content p:hover {
+    background-color: #ffffff;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.obj{
+  display: flex;
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  height: fit-content;
+  margin-left: 0;
+
+}
+.hobj{
+  color: white;
+  width: fit-content;
+  padding: 10px;
+}
+.hobj:hover{
+  border: solid 1px white;
+
+}
+.content{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-image: url(gif.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top:19%; 
+  height: fit-content;
+}
+.content2{
+  background-color: #ffffff;
+  margin: 10px 10px;
+}
+.content h3,.content1 h3{
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #ffffff;
+  margin: 0 5px 0 5px;
+ 
+}
+.subitem{
+ 
+  margin: 10px;
+}
+.subitem p{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+.hscroll{
+  margin: 10px 0 20px 10px;
+  padding: 1px 0 10px 20px;
+  background-color: white;
+  height: 290px;
+}
+.hscroll h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.scroll{
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: white;
+  margin-left: 10px;
+ 
+}
+.scritems{
+  padding: 0 15px 10px 15px;
+  width: fit-content;
+  
+}
+.scroll:hover{
+  
+  overflow-x: scroll;
+  transition-delay: 1.5s ;
+  
+}
+.content1{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  height: 100px;
+}
